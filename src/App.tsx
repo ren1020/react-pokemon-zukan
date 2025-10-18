@@ -1,10 +1,10 @@
-imimport React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import PokemonList from './pages/PokemonList';
-import PokemonDetail from './pages/PokemonDetail';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
-import Footer from './components/Footer';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import PokemonList from "./pages/PokemonList";
+import PokemonDetail from "./pages/PokemonDetail";
+import Header from "./components/Header";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return (
@@ -23,5 +23,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-
-
